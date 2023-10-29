@@ -95,4 +95,4 @@ def DANN_train(train_source, train_target, deploy_target, validation_set, hp, ar
     writer.flush()
     scheduler.step()
 
-  return model, train_target
+  return model, train_target, writer
